@@ -1,0 +1,24 @@
+name: floater
+description: A framework that floats over flutter as a higher level construct to provide architecture and structure for complex flutter apps.
+version: 0.1.4+1
+homepage: https://github.com/shreymahendru/floater
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  meta: ^1.3.0
+  get_it: ^6.0.0
+  flutter_secure_storage: ^4.1.0
+  rxdart: ^0.26.0
+  pedantic: ^1.11.0
+  shared_preferences: ^2.0.5
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
